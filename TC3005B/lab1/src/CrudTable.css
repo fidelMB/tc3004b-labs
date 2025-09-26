@@ -1,0 +1,94 @@
+.crud-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.crud-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+}
+
+.input-group .btn.add {
+  border-radius: 0 8px 8px 0;
+  background: #007bff;
+  color: white;
+}
+
+.crud-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.crud-table th,
+.crud-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.crud-table th {
+  background: #f4f4f4;
+}
+
+.crud-table tr:hover {
+  background: #f9f9f9;
+}
+
+.btn {
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s ease;
+}
+
+.btn.edit {
+  background: #ffc107;
+  color: #333;
+}
+
+.btn.save {
+  background: #28a745;
+  color: white;
+}
+
+.btn.cancel {
+  background: #6c757d;
+  color: white;
+}
+
+.btn.delete {
+  background: #dc3545;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
